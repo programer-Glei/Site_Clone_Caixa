@@ -22,7 +22,7 @@ body{
     padding-bottom: 2rem;
 }
 
-body, button, input, textarea{
+body, button, input, textarea, a{
     /* intervalo de tamanho*/
     font-size: clamp(14px, 1.6rem, 2vw);
     font-family: sans-serif;
@@ -35,16 +35,54 @@ body, button, input, textarea{
 }
 
 aside{
-    width: 19rem;
+    width: 18.6rem;
     background: #fff;
 }
 
 aside .menu-logo{
-    padding: 3rem 3.2rem;
+    padding: 2.2rem 3.2rem;
 }
 
 aside .menu-logo img{
     width: 13rem;
+}
+
+aside #menu-pincipal li{
+    padding: 5.4rem 2rem 3.5rem 2rem;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+aside #menu-pincipal li:hover{
+    background: #f5f7f7;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+aside #menu-pincipal li.active{
+    border-left: 5px solid var(--orange);
+    background-color: #f5f7f7;
+    background-image: url("../img/gr_linkAtivo.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+aside #menu-pincipal li.active a{
+    color: #32383b;
+}
+
+aside #menu-pincipal li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #70777b;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+aside #menu-pincipal li a img{
+    width: 3.7rem;
+    margin-bottom: 1.1rem;
 }
 
 main{
