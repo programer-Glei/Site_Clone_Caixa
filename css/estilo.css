@@ -3,20 +3,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
 }
 
 html{
     --orange: #ffa100;
     --body-back: #2577ac;
+    --cont: #296fa7;
 
     font-size: 62.5%;
 }
 
 body{
+    height: 100vh;
     background: var(--body-back);
+    padding-bottom: 2rem;
 }
 
 body, button, input, textarea{
     /* intervalo de tamanho*/
     font-size: clamp(14px, 1.6rem, 2vw);
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100%;
+    background: var(--cont);
+    display: flex;
+}
+
+aside{
+    width: 19rem;
+    background: #fff;
+}
+
+aside .menu-logo{
+    padding: 3rem 3.2rem;
+}
+
+aside .menu-logo img{
+    width: 13rem;
+}
+
+main{
+    flex: 1;
 }
