@@ -8,4 +8,15 @@
 html{
     --orange: #ffa100;
     --body-back: #2577ac;
+
+    font-size: 62.5%;
+}
+
+body{
+    background: var(--body-back);
+}
+
+body, button, input, textarea{
+    /* intervalo de tamanho*/
+    font-size: clamp(14px, 1.6rem, 2vw);
 }
