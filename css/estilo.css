@@ -5,4 +5,7 @@
     box-sizing: border-box;
 }
 
-
+html{
+    --orange: #ffa100;
+    --body-back: #2577ac;
+}
