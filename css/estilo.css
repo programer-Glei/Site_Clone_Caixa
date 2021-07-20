@@ -89,6 +89,10 @@ aside #menu-pincipal li a img{
     margin-bottom: 1.1rem;
 }
 
+aside #menu-pincipal .espaco{
+    padding: 3.6rem 2rem 2.5rem 2rem;
+}
+
 main{
     flex: 1;
 }
