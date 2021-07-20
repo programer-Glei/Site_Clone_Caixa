@@ -19,7 +19,6 @@ html{
 body{
     height: 100vh;
     background: var(--body-back);
-    padding-bottom: 2rem;
 }
 
 body, button, input, textarea, a{
@@ -29,9 +28,13 @@ body, button, input, textarea, a{
 }
 
 .container{
-    height: 100%;
     background: var(--cont);
     display: flex;
+}
+
+.rodape{
+    height: 2rem;
+    background: var(--body-back);
 }
 
 aside{
