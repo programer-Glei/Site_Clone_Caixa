@@ -2,6 +2,7 @@
 function marcador(event){
     const button = event.currentTarget
 
+    console.log(event)
     console.log(button)
     //remova todas as .active
 
