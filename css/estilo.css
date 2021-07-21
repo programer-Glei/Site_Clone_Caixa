@@ -51,6 +51,7 @@ aside .menu-logo img{
 }
 
 aside #menu-pincipal li{
+    border-left: 5px solid #fff;
     padding: 3.6rem 2rem 2.5rem 2rem;
     cursor: pointer;
     border-bottom: 1px solid #fff;
@@ -80,8 +81,8 @@ aside #menu-pincipal li a{
     align-items: center;
     justify-content: center;
     color: #70777b;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 aside #menu-pincipal li a img{

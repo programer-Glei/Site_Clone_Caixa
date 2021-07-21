@@ -11,4 +11,7 @@ function marcador(event){
     botoes.forEach((botoes) =>{
         botoes.classList.remove("active")
     })
+
+    //adicionar a classe .active para este botão
+    button.classList.add("active")
 }
