@@ -97,3 +97,30 @@ aside #menu-pincipal .espaco{
 main{
     flex: 1;
 }
+
+/**** menu superior do lado esquerdo dentro do conteudo principal ***/
+
+main .menus-conteudo ul{
+    display: flex;
+    padding: 4rem 0 0 1.9rem;
+}
+
+main .menus-conteudo ul li a{
+    display: inline-block;
+}
+
+.menu-esquerda{
+    border: 1px solid red;
+}
+
+.menu-superior{
+    border: 1px solid black;
+}
+
+.menu-esquerda .menu-superior ul li a{
+    padding: 0.2rem 1.9rem;
+    border-left: 0.2rem solid var(--orange);
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+}
