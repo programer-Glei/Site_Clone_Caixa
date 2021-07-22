@@ -129,3 +129,9 @@ main .menus-conteudo ul li a:hover{
     color: #fff;
     font-weight: 700;
 }
+
+.menu-esquerda .menu-inferior{
+    margin-top: 1.5rem;
+    padding: 0.9rem 0 0.9rem 5rem;
+    border-bottom: 1px solid #3485c2;
+}
