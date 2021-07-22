@@ -100,6 +100,10 @@ main{
 
 /**** menu superior do lado esquerdo dentro do conteudo principal ***/
 
+main .menus-conteudo{
+    display: flex;
+}
+
 main .menus-conteudo ul{
     display: flex;
     padding: 4rem 0 0 1.9rem;
@@ -111,12 +115,6 @@ main .menus-conteudo ul li a{
 
 main .menus-conteudo ul li a:hover{
     border-bottom: 1px solid #fff;
-}
-
-.menu-esquerda{
-}
-
-.menu-superior{
 }
 
 .menu-esquerda .menu-superior ul li{
