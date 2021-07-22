@@ -111,6 +111,7 @@ main .menus-conteudo ul{
 
 main .menus-conteudo ul li a{
     display: inline-block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 main .menus-conteudo ul li a:hover{
@@ -134,6 +135,11 @@ main .menus-conteudo ul li a:hover{
 
 .menu-esquerda .menu-inferior{
     margin-top: 1.5rem;
-    padding: 0.9rem 0 0.9rem 5rem;
+    padding: 0.9rem 0 0.9rem 3.5rem;
     border-bottom: 1px solid #3485c2;
+}
+
+.menu-esquerda .menu-inferior ul li{
+    padding: 0 1.4rem;
+
 }
