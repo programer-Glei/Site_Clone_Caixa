@@ -148,3 +148,7 @@ main .menus-conteudo ul li a:hover{
 .menu-esquerda .menu-inferior ul li a{
     font-size: 1.6rem;
 }
+
+.menu-esquerda .menu-inferior ul li:last-child{
+    font-weight: 700;
+}
