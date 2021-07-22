@@ -112,6 +112,7 @@ main .menus-conteudo ul{
 main .menus-conteudo ul li a{
     display: inline-block;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
+    color: #fff;
 }
 
 main .menus-conteudo ul li a:hover{
@@ -142,4 +143,8 @@ main .menus-conteudo ul li a:hover{
 .menu-esquerda .menu-inferior ul li{
     padding: 0 1.4rem;
 
+}
+
+.menu-esquerda .menu-inferior ul li a{
+    font-size: 1.6rem;
 }
