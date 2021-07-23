@@ -141,12 +141,18 @@ main .menus-conteudo ul li a:hover{
 }
 
 .menu-esquerda .menu-inferior ul li{
-    padding: 0 1.4rem;
+    padding: 0 1.2rem;
 
 }
 
 .menu-esquerda .menu-inferior ul li a{
     font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu-esquerda .menu-inferior ul li a img{
+    margin-left: 0.5rem;
 }
 
 .menu-esquerda .menu-inferior ul li:last-child{
