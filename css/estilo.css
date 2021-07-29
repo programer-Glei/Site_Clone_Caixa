@@ -98,10 +98,15 @@ main{
     flex: 1;
 }
 
+main .main-conteudo{
+    padding-right: 2rem;
+}
+
 /**** menu superior do lado esquerdo dentro do conteudo principal ***/
 
 main .menus-conteudo{
     display: flex;
+    justify-content: space-between;
 }
 
 main .menus-conteudo ul{
