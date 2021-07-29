@@ -163,10 +163,24 @@ main .menus-conteudo ul li a:hover{
 
 /**** menu superior do lado direito dentro do conteudo principal ***/
 
+.menu-direita .menu-superior ul{
+    padding-top: 3.7rem;
+}
+
 .menu-direita .menu-superior li{
     padding: 0 1.2rem;
+    display: flex;
+    align-items: center;
 }
 
 .menu-direita .menu-superior li a{
     font-size: 1.3rem;
+}
+
+.menu-direita .menu-superior ul li:nth-child(6) img{
+    width: 3rem;
+}
+
+.menu-direita .menu-superior ul li:nth-child(7) img{
+    width: 8rem;
 }
