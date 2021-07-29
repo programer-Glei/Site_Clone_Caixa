@@ -134,6 +134,8 @@ main .menus-conteudo ul li a:hover{
     font-weight: 700;
 }
 
+/**** menu inferior do lado esquerdo dentro do conteudo principal ***/
+
 .menu-esquerda .menu-inferior{
     margin-top: 1.5rem;
     padding: 0.9rem 0 0.9rem 3.5rem;
@@ -157,4 +159,14 @@ main .menus-conteudo ul li a:hover{
 
 .menu-esquerda .menu-inferior ul li:last-child{
     font-weight: 700;
+}
+
+/**** menu superior do lado direito dentro do conteudo principal ***/
+
+.menu-direita .menu-superior li{
+    padding: 0 1.2rem;
+}
+
+.menu-direita .menu-superior li a{
+    font-size: 1.3rem;
 }
