@@ -30,7 +30,12 @@ body, button, input, textarea, a{
 /* inputs and buttons ***/
 
 .button{
-
+    background-color: var(--orange);
+    display: inline-flex;
+    padding: 1.2rem 2.5rem;
+    box-shadow: 0px 2px 0 rgb(31 42 71 / 10%);
+    border-radius: 0.2rem;
+    color: #fff;
 }
 
 .container{
