@@ -27,6 +27,12 @@ body, button, input, textarea, a{
     font-family: sans-serif;
 }
 
+/* inputs and buttons ***/
+
+.button{
+
+}
+
 .container{
     background: var(--cont);
     display: flex;
