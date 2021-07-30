@@ -189,3 +189,9 @@ main .menus-conteudo ul li a:hover{
 .menu-direita .menu-superior ul li:nth-child(7) img{
     width: 8rem;
 }
+
+/**** menu inferior do lado direito dentro do conteudo principal ***/
+
+.menu-direita .menu-inferior{
+    display: flex;
+}
