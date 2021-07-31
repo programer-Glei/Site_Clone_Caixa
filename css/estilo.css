@@ -244,3 +244,15 @@ main .menus-conteudo ul li a:hover{
 .menu-inferior .input-search input::placeholder{
     color: rgb(167, 202, 224);
 }
+
+/**** main conteudo principal ***/
+
+.conteudo-principal{
+    padding-left: 7.9rem;
+}
+
+.conteudo-principal article h1{
+    font-size: 6.7rem;
+    color: #fff;
+    font-weight: 800;
+}
