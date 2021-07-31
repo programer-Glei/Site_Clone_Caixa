@@ -228,5 +228,12 @@ main .menus-conteudo ul li a:hover{
 }
 
 .menu-inferior .input-search input{
-    
+    background: transparent;
+    color: #fff;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.menu-inferior .input-search input::placeholder{
+    color: rgb(167, 202, 224);
 }
