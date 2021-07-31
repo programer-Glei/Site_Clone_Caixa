@@ -217,3 +217,8 @@ main .menus-conteudo ul li a:hover{
 .menu-direita .menu-inferior{
     display: flex;
 }
+
+.menu-direita .menu-inferior .input-search{
+    display: flex;
+    align-items: center;
+}
