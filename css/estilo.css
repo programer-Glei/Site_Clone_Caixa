@@ -217,19 +217,21 @@ main .menus-conteudo ul li a:hover{
 .menu-direita .menu-inferior{
     display: flex;
     justify-content: space-between;
+    padding-top: 4.5rem;
+    padding-left: 5rem;
 }
 
 .menu-direita .menu-inferior .input-search{
-    width: 28.9rem;
+    width: 24rem;
     display: flex;
     align-items: center;
-    padding-bottom: 1.7rem;
     padding-left: 2.7rem;
     border-bottom: 1px solid #fff;
 }
 
 .menu-inferior .input-search button{
     background: transparent;
+    margin-right: 1rem;
 }
 
 .menu-inferior .input-search input{
