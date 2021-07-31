@@ -36,6 +36,17 @@ body, button, input, textarea, a{
     box-shadow: 0px 2px 0 rgb(31 42 71 / 10%);
     border-radius: 0.2rem;
     color: #fff;
+    align-items: center;
+}
+
+.button > img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.7rem;
+}
+
+.button:hover{
+    filter: brightness(1.2);
 }
 
 .container{
