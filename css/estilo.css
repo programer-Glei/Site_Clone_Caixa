@@ -222,3 +222,11 @@ main .menus-conteudo ul li a:hover{
     display: flex;
     align-items: center;
 }
+
+.menu-inferior .input-search button{
+    background: transparent;
+}
+
+.menu-inferior .input-search input{
+    
+}
