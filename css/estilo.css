@@ -255,4 +255,15 @@ main .menus-conteudo ul li a:hover{
     font-size: 6.7rem;
     color: #fff;
     font-weight: 800;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+.conteudo-principal article .para{
+    width: 40rem;
+    height: 12rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: normal;
 }
