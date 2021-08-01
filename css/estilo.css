@@ -254,6 +254,7 @@ main .menus-conteudo ul li a:hover{
 /**** main conteudo principal ***/
 
 .conteudo-principal{
+    display: flex;
     padding-left: 7.9rem;
 }
 
@@ -274,4 +275,8 @@ main .menus-conteudo ul li a:hover{
     font-weight: normal;
     line-height: 3.8rem;
     margin-bottom: 5rem;
+}
+
+.conteudo-principal article .button{
+    border: 1px solid black;
 }
