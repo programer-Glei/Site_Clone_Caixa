@@ -45,6 +45,12 @@ body, button, input, textarea, a{
     margin-right: 0.7rem;
 }
 
+.button > span{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    line-height: 1.2rem;
+}
+
 .button:hover{
     filter: brightness(1.1);
 }
@@ -267,4 +273,5 @@ main .menus-conteudo ul li a:hover{
     font-size: 2rem;
     font-weight: normal;
     line-height: 3.8rem;
+    margin-bottom: 5rem;
 }
