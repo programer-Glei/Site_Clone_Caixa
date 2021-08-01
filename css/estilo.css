@@ -256,7 +256,7 @@ main .menus-conteudo ul li a:hover{
     color: #fff;
     font-weight: 800;
     margin-top: 7rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     margin-left: 2rem;
 }
 
@@ -266,4 +266,5 @@ main .menus-conteudo ul li a:hover{
     color: #fff;
     font-size: 2rem;
     font-weight: normal;
+    line-height: 3.8rem;
 }
