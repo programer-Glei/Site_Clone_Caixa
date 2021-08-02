@@ -293,14 +293,14 @@ main .menus-conteudo ul li a:hover{
     width: 100%;
     background: transparent;
     padding-top: 5.5rem;
-    padding-left: 7.8rem;
+    padding-left: 5rem;
 }
 
 .conteudo-principal aside h2{
     font-size: 1.9rem;
     color: #fff;
     font-weight: 600;
-    margin-bottom: 2.7rem;
+    margin-bottom: 3rem;
 }
 
 .conteudo-principal aside ul li{
@@ -310,16 +310,28 @@ main .menus-conteudo ul li a:hover{
 
 .conteudo-principal aside ul li .seta{
     background: url("../img/sprites.png") no-repeat -65px -100px;
-    width: 1.5rem;
+    width: 0.9rem;
     height: 1.5rem;
 }
 
 .conteudo-principal aside ul li a{
     color: #fff;
     display: inline-block;
+    width: 30rem;
+    border: 1px solid red;
 }
+
 
 .conteudo-principal aside ul li a span{
     display: block;
     font-size: 10px;
+}
+
+.conteudo-principal aside ul li a span:nth-child(1){
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.conteudo-principal aside ul li a span:nth-child(2){
+    font-size: 1.4rem;
 }
