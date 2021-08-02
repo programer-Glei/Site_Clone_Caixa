@@ -295,10 +295,22 @@ main .menus-conteudo ul li a:hover{
     padding-top: 5.5rem;
 }
 
-.conteudo-principal aside a{
+.conteudo-principal aside ul li{
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-principal aside ul li .seta{
+    background: url("../img/sprites.png") no-repeat -65px -100px;
+    width: 0.8rem;
+    height: 1.5rem;
+}
+
+.conteudo-principal aside ul li a{
     color: #fff;
 }
 
-.conteudo-principal aside span{
+.conteudo-principal aside ul li a span{
     display: block;
+    font-size: 10px;
 }
