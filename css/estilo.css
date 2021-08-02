@@ -295,6 +295,12 @@ main .menus-conteudo ul li a:hover{
     padding-top: 5.5rem;
 }
 
+.conteudo-principal aside h2{
+    font-size: 1.9rem;
+    color: #fff;
+    font-weight: 600;
+}
+
 .conteudo-principal aside ul li{
     display: flex;
     align-items: center;
