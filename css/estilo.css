@@ -192,6 +192,10 @@ main .menus-conteudo ul li a:hover{
 
 /**** menu superior do lado direito dentro do conteudo principal ***/
 
+.menu-direita{
+    padding-right: 2rem;
+}
+
 .menu-direita .menu-superior ul{
     padding-top: 3.7rem;
 }
