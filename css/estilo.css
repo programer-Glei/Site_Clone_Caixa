@@ -21,7 +21,7 @@ body{
     background: var(--body-back);
 }
 
-body, button, input, textarea, a{
+body, button, input, textarea{
     /* intervalo de tamanho*/
     font-size: clamp(14px, 1.6rem, 2vw);
     font-family: sans-serif;
@@ -124,10 +124,6 @@ aside #menu-pincipal .espaco{
 
 main{
     flex: 1;
-}
-
-main .main-conteudo{
-    padding-right: 2rem;
 }
 
 /**** menu superior do lado esquerdo dentro do conteudo principal ***/
@@ -294,6 +290,7 @@ main .menus-conteudo ul li a:hover{
     background: transparent;
     padding-top: 5.5rem;
     padding-left: 5rem;
+    padding-right: 2rem;
 }
 
 .conteudo-principal aside h2{
@@ -320,22 +317,17 @@ main .menus-conteudo ul li a:hover{
 
 .conteudo-principal aside ul li a{
     color: #fff;
-    display: inline-block;
+    display: block;
     max-width: 30rem;
 }
 
-
-.conteudo-principal aside ul li a span{
-    display: block;
-    font-size: 10px;
-}
-
-.conteudo-principal aside ul li a span:nth-child(1){
+.conteudo-principal aside ul li a div:nth-child(1){
     font-size: 1.6rem;
     padding-bottom: 1rem;
 }
 
-.conteudo-principal aside ul li a span:nth-child(2){
+.conteudo-principal aside ul li a div:nth-child(2){
     font-size: 1.4rem;
-    padding-right: 0.5rem;
+    padding-right: 0.6rem;
+    width: 30rem;
 }
