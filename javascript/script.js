@@ -1,5 +1,5 @@
 
-let conteudo_pricipal = document.querySelector('.main-conteudo').style.backgroundImage
+let conteudo_pricipal = document.querySelector('.main-conteudo')
 
 
 function marcador(event){
@@ -18,7 +18,9 @@ function marcador(event){
 
     //adicionar a classe .active para este botão
     button.classList.add("active")
+    console.log(conteudo_pricipal)
     if(button.id == "2"){
-        conteudo_pricipal = "url('../img/trabalhador-home.jpg')"
+        console.log(button.id)
+        conteudo_pricipal.style.backgroundImage = "url('img/trabalhador-home.jpg')"
     }
 }
