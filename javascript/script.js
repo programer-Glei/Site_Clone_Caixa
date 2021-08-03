@@ -1,4 +1,7 @@
 
+let conteudo_pricipal = document.querySelector('.main-conteudo').style.backgroundImage
+
+
 function marcador(event){
     const button = event.currentTarget
 
@@ -15,4 +18,7 @@ function marcador(event){
 
     //adicionar a classe .active para este botão
     button.classList.add("active")
+    if(button.id == "2"){
+        conteudo_pricipal = "url('../img/trabalhador-home.jpg')"
+    }
 }
