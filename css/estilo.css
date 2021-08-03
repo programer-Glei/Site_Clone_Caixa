@@ -335,3 +335,25 @@ main .menus-conteudo ul li a:hover{
     padding-right: 0.6rem;
     width: 30rem;
 }
+
+.conteudo-principal aside ul li:last-child{
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.conteudo-principal aside ul li:last-child a{
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    color: #a5dff2;
+    font-size: 1.4rem;
+}
+
+.conteudo-principal aside ul li:last-child a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.conteudo-principal aside ul li:last-child a img{
+    width: 1.4rem;
+    margin-left: 0.5rem;
+}
