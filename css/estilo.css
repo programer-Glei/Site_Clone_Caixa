@@ -255,6 +255,11 @@ main .menus-conteudo ul li a:hover{
 
 /**** main conteudo principal ***/
 
+.main-conteudo{
+    background-size: cover;
+    background-position: center;
+}
+
 .conteudo-principal{
     display: flex;
     padding-left: 7.9rem;
