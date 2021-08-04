@@ -56,8 +56,10 @@ body, button, input, textarea{
 }
 
 .container{
+    width: 100%;
     background: var(--cont);
     display: flex;
+    margin: 0 auto;
 }
 
 .rodape{

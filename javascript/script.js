@@ -1,5 +1,6 @@
 
 let conteudo_pricipal = document.querySelector('.main-conteudo')
+let ilustracao = document.querySelector('.ilustracao')
 
 
 function marcador(event){
@@ -21,6 +22,7 @@ function marcador(event){
     console.log(conteudo_pricipal)
     if(button.id == "2"){
         console.log(button.id)
+        ilustracao.style.display = "none"
         conteudo_pricipal.style.backgroundImage = "url('img/trabalhador-home.jpg')"
     }
 }
