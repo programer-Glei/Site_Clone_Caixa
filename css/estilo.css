@@ -258,6 +258,7 @@ main .menus-conteudo ul li a:hover{
 .conteudo-principal{
     display: flex;
     padding-left: 7.9rem;
+    justify-content: space-between;
 }
 
 .conteudo-principal article h1{
@@ -292,7 +293,7 @@ main .menus-conteudo ul li a:hover{
 }
 
 .conteudo-principal aside{
-    width: 100%;
+    width: 40rem;
     background: transparent;
     padding-top: 5.5rem;
     padding-left: 5rem;
