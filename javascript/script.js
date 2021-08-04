@@ -1,6 +1,7 @@
 
 let conteudo_pricipal = document.querySelector('.main-conteudo')
 let ilustracao = document.querySelector('.ilustracao')
+let Main_h1 = document.querySelector('.conteudo-principal article h1')
 
 
 function marcador(event){
@@ -24,5 +25,7 @@ function marcador(event){
         console.log(button.id)
         ilustracao.style.display = "none"
         conteudo_pricipal.style.backgroundImage = "url('img/trabalhador-home.jpg')"
+        Main_h1.classList.add("menor")
+        Main_h1.innerHTML = "Benefícios para<br> Trabalhadores"
     }
 }
