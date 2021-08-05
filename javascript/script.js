@@ -2,6 +2,8 @@
 let conteudo_pricipal = document.querySelector('.main-conteudo')
 let ilustracao = document.querySelector('.ilustracao')
 let Main_h1 = document.querySelector('.conteudo-principal article h1')
+let Main_para = document.querySelector('.conteudo-principal article .para')
+let Main_button = document.querySelector('.conteudo-principal article .button')
 
 
 function marcador(event){
@@ -27,5 +29,7 @@ function marcador(event){
         conteudo_pricipal.style.backgroundImage = "url('img/trabalhador-home.jpg')"
         Main_h1.classList.add("menor")
         Main_h1.innerHTML = "Benefícios para<br> Trabalhadores"
+        Main_para.innerHTML = "O banco de todos os brasileiros tem orgulho de ser o banco de todos os trabalhadores."
+        Main_button.innerHTML = ""
     }
 }
