@@ -30,6 +30,6 @@ function marcador(event){
         Main_h1.classList.add("menor")
         Main_h1.innerHTML = "Benefícios para<br> Trabalhadores"
         Main_para.innerHTML = "O banco de todos os brasileiros tem orgulho de ser o banco de todos os trabalhadores."
-        Main_button.innerHTML = ""
+        Main_button.innerHTML = "Conheça seus benefícios <span>▶</span>"
     }
 }
