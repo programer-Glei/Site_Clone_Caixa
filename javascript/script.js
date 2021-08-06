@@ -5,6 +5,14 @@ let Main_h1 = document.querySelector('.conteudo-principal article h1')
 let Main_para = document.querySelector('.conteudo-principal article .para')
 let Main_button = document.querySelector('.conteudo-principal article .button')
 let Aside_h2 = document.querySelector('.conteudo-principal aside h2')
+let Aside_title = document.querySelector('.conteudo-principal aside #aside-title')
+let Aside_subtile = document.querySelector('.conteudo-principal aside #aside-subtitle')
+let Aside_title1 = document.querySelector('.conteudo-principal aside #aside-title1')
+let Aside_subtile1 = document.querySelector('.conteudo-principal aside #aside-subtitle1')
+let Aside_title2 = document.querySelector('.conteudo-principal aside #aside-title2')
+let Aside_subtile2 = document.querySelector('.conteudo-principal aside #aside-subtitle2')
+let Aside_title3 = document.querySelector('.conteudo-principal aside #aside-title3')
+let Aside_subtile3 = document.querySelector('.conteudo-principal aside #aside-subtitle3')
 
 
 function marcador(event){
