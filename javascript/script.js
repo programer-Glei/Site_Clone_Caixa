@@ -32,6 +32,23 @@ function marcador(event){
     //adicionar a classe .active para este botão
     button.classList.add("active")
     console.log(conteudo_pricipal)
+    if(button.id == "1"){
+        ilustracao.style.display = "block"
+        conteudo_pricipal.style.backgroundImage = ""
+        Main_h1.classList.remove("menor")
+        Main_h1.innerHTML = "PRONAMPE <br> na CAIXA"
+        Main_para.innerHTML = "Com o PRONAMPE sua empresa tem crédito com taxas reduzidas e carência para começar a pagar."
+        Main_button.innerHTML = "Saiba mais <span>▶</span>"
+        Aside_h2.innerHTML = "Mais benefícios para o <br>trabalhador"
+        Aside_title.innerHTML = "FGTS - Saque Aniversário"
+        Aside_subtile.innerHTML = "Simule aqui o valor que você poderá <br>sacar."
+        Aside_title1.innerHTML = "INSS"
+        Aside_subtile1.innerHTML = "Receba seu benefício pela CAIXA. È <br> rápido e seguro"
+        Aside_title2.innerHTML = "Abono Salarial"
+        Aside_subtile2.innerHTML = "Verifique quem tem direito e como <br> sacar."
+        Aside_title3.innerHTML = "Chat FGTS"
+        Aside_subtile3.innerHTML = "Tire todas as suas dúvidas sobre os <br> novos saques do FGTS."
+    }
     if(button.id == "2"){
         console.log(button.id)
         ilustracao.style.display = "none"
