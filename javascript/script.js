@@ -41,5 +41,13 @@ function marcador(event){
         Main_para.innerHTML = "O banco de todos os brasileiros tem orgulho de ser o banco de todos os trabalhadores."
         Main_button.innerHTML = "Conheça seus benefícios <span>▶</span>"
         Aside_h2.innerHTML = "Mais benefícios para o <br>trabalhador"
+        Aside_title.innerHTML = "FGTS - Saque Aniversário"
+        Aside_subtile.innerHTML = "Simule aqui o valor que você poderá <br>sacar."
+        Aside_title1.innerHTML = "INSS"
+        Aside_subtile1.innerHTML = "Receba seu benefício pela CAIXA. È <br> rápido e seguro"
+        Aside_title2.innerHTML = "Abono Salarial"
+        Aside_subtile2.innerHTML = "Verifique quem tem direito e como <br> sacar."
+        Aside_title3.innerHTML = "Chat FGTS"
+        Aside_subtile3.innerHTML = "Tire todas as suas dúvidas sobre os <br> novos saques do FGTS."
     }
 }
