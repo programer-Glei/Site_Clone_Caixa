@@ -4,6 +4,7 @@ let ilustracao = document.querySelector('.ilustracao')
 let Main_h1 = document.querySelector('.conteudo-principal article h1')
 let Main_para = document.querySelector('.conteudo-principal article .para')
 let Main_button = document.querySelector('.conteudo-principal article .button')
+let Aside_h2 = document.querySelector('.conteudo-principal aside h2')
 
 
 function marcador(event){
@@ -31,5 +32,6 @@ function marcador(event){
         Main_h1.innerHTML = "Benefícios para<br> Trabalhadores"
         Main_para.innerHTML = "O banco de todos os brasileiros tem orgulho de ser o banco de todos os trabalhadores."
         Main_button.innerHTML = "Conheça seus benefícios <span>▶</span>"
+        Aside_h2.innerHTML = "Mais benefícios para o <br>trabalhador"
     }
 }
