@@ -67,4 +67,21 @@ function marcador(event){
         Aside_title3.innerHTML = "Chat FGTS"
         Aside_subtile3.innerHTML = "Tire todas as suas dúvidas sobre os <br> novos saques do FGTS."
     }
+    if(button.id == "3"){
+        ilustracao.style.display = "block"
+        conteudo_pricipal.style.backgroundImage = ""
+        Main_h1.classList.add("menor")
+        Main_h1.innerHTML = "Auxílio <br> Emergencial"
+        Main_para.innerHTML = "​Um suporte financeiro para <br> trabalhadores informais."
+        Main_button.innerHTML = "Saiba mais <span>▶</span>"
+        Aside_h2.innerHTML = "Mais destaques"
+        Aside_title.innerHTML = "CAIXA + empresas"
+        Aside_subtile.innerHTML = "Com o PRONAMPE sua empresa tem crédito com taxas reduzidas e carência para começar a pagar."
+        Aside_title1.innerHTML = "Trabalhe na CAIXA"
+        Aside_subtile1.innerHTML = "Você tem interesse em trabalhar na CAIXA? Saiba como."
+        Aside_title2.innerHTML = "Negocie suas dívidas"
+        Aside_subtile2.innerHTML = "Se você está com dificuldade de pagamento de seu empréstimo, cartão de crédito ou financiamento habitacional, regularize suas dívidas agora mesmo. A CAIXA sempre tem uma solução que cabe no seu bolso."
+        Aside_title3.innerHTML = "Fale Conosco"
+        Aside_subtile3.innerHTML = "Atendimento CAIXA - 0800 104 0104 <br> CAIXA Cidadão - 0800 726 0207 <br> Negociação de Dívidas via chat <br> SAC CAIXA - 0800 726 0101 <br> Ouvidoria CAIXA - 0800 725 7474 <br> Canal de Denúncia <br> Consumidor.gov.br"
+    }
 }
