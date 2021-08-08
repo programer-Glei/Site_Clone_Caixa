@@ -300,7 +300,7 @@ main .menus-conteudo ul li a:hover{
     padding-right: 3.6rem;
 }
 
-.conteudo-principal .ilustracao{
+.conteudo-principal .ilustracao.absoluto{
     position: absolute;
     right: 40rem;
 }

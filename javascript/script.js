@@ -37,6 +37,7 @@ function marcador(event){
         ilustracao.style.display = "block"
         conteudo_pricipal.style.backgroundImage = ""
         Main_h1.classList.remove("menor")
+        Main_article.classList.remove("absoluto")
         Main_h1.innerHTML = "PRONAMPE <br> na CAIXA"
         Main_para.innerHTML = "Com o PRONAMPE sua empresa tem crédito com taxas reduzidas e carência para começar a pagar."
         Main_button.innerHTML = "Saiba mais <span>▶</span>"
@@ -55,6 +56,7 @@ function marcador(event){
         ilustracao.style.display = "none"
         conteudo_pricipal.style.backgroundImage = "url('img/trabalhador-home.jpg')"
         Main_h1.classList.add("menor")
+        Main_article.classList.remove("absoluto")
         Main_h1.innerHTML = "Benefícios para<br> Trabalhadores"
         Main_para.innerHTML = "O banco de todos os brasileiros tem orgulho de ser o banco de todos os trabalhadores."
         Main_button.innerHTML = "Conheça seus benefícios <span>▶</span>"
@@ -70,8 +72,10 @@ function marcador(event){
     }
     if(button.id == "3"){
         ilustracao.style.display = "block"
+        ilustracao.classList.remove("absoluto")
         conteudo_pricipal.style.backgroundImage = ""
         Main_h1.classList.add("menor")
+        Main_article.classList.add("absoluto")
         Main_h1.innerHTML = "Auxílio <br> Emergencial"
         Main_para.innerHTML = "​Um suporte financeiro para <br> trabalhadores informais."
         Main_button.innerHTML = "Saiba mais <span>▶</span>"
