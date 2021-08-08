@@ -2,6 +2,7 @@
 let conteudo_pricipal = document.querySelector('.main-conteudo')
 let ilustracao = document.querySelector('.ilustracao')
 let Main_h1 = document.querySelector('.conteudo-principal article h1')
+let Main_article = document.querySelector('.conteudo-principal article')
 let Main_para = document.querySelector('.conteudo-principal article .para')
 let Main_button = document.querySelector('.conteudo-principal article .button')
 let Aside_h2 = document.querySelector('.conteudo-principal aside h2')

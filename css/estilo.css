@@ -279,6 +279,11 @@ main .menus-conteudo ul li a:hover{
     font-size: 4.7rem;
 }
 
+.conteudo-principal article.absoluto{
+    position: absolute;
+    right: 40rem;
+}
+
 .conteudo-principal article .para{
     width: 40rem;
     height: 12rem;
