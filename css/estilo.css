@@ -295,6 +295,11 @@ main .menus-conteudo ul li a:hover{
     padding-right: 3.6rem;
 }
 
+.conteudo-principal .ilustracao{
+    position: absolute;
+    right: 22rem;
+}
+
 .conteudo-principal .ilustracao img{
     max-width: 56.9rem;
     max-height: 71.7rem;
