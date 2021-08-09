@@ -38,6 +38,7 @@ function marcador(event){
         ilustracao.style.display = "block"
         ilustracao.classList.add("absoluto")
         conteudo_pricipal.style.backgroundImage = ""
+        img.src = "img/mais-empresa-elemento.png"
         Main_h1.classList.remove("menor")
         Main_article.classList.remove("absoluto")
         Main_h1.innerHTML = "PRONAMPE <br> na CAIXA"
