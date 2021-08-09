@@ -15,6 +15,7 @@ let Aside_title2 = document.querySelector('.conteudo-principal aside #aside-titl
 let Aside_subtile2 = document.querySelector('.conteudo-principal aside #aside-subtitle2')
 let Aside_title3 = document.querySelector('.conteudo-principal aside #aside-title3')
 let Aside_subtile3 = document.querySelector('.conteudo-principal aside #aside-subtitle3')
+let ultimo_li = document.querySelector('.conteudo-principal aside ul li:nth-child(4)')
 
 
 function marcador(event){
@@ -88,9 +89,8 @@ function marcador(event){
         Aside_subtile.innerHTML = "Um suporte financeiro adicional aos trabalhadores beneficiários do Auxílio Emergencial que atendam às novas condições. Saiba mais"
         Aside_title1.innerHTML = "Benefício Emergencial de Preservação do Emprego e da Renda - BEm"
         Aside_subtile1.innerHTML = "O Benefício Emergencial de Preservação do Emprego e da Renda – BEm é destinado a trabalhadores que formalizaram acordo com os seus empregadores, durante o período da pandemia da COVID-19."
-        Aside_title2.innerHTML = "Negocie suas dívidas"
-        Aside_subtile2.innerHTML = "Se você está com dificuldade de pagamento de seu empréstimo, cartão de crédito ou financiamento habitacional, regularize suas dívidas agora mesmo. A CAIXA sempre tem uma solução que cabe no seu bolso."
-        Aside_title3.innerHTML = "Fale Conosco"
-        Aside_subtile3.innerHTML = "Atendimento CAIXA - 0800 104 0104 <br> CAIXA Cidadão - 0800 726 0207 <br> Negociação de Dívidas via chat <br> SAC CAIXA - 0800 726 0101 <br> Ouvidoria CAIXA - 0800 725 7474 <br> Canal de Denúncia <br> Consumidor.gov.br"
+        Aside_title2.innerHTML = "FIES"
+        Aside_subtile2.innerHTML = "O caminho mais rápido para chegar na universidade"
+        ultimo_li.style.display = "none"
     }
 }
