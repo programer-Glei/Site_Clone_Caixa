@@ -1,6 +1,7 @@
 
 let conteudo_pricipal = document.querySelector('.main-conteudo')
 let ilustracao = document.querySelector('.ilustracao')
+let img = document.querySelector('ilustracao img')
 let Main_h1 = document.querySelector('.conteudo-principal article h1')
 let Main_article = document.querySelector('.conteudo-principal article')
 let Main_para = document.querySelector('.conteudo-principal article .para')
@@ -35,6 +36,7 @@ function marcador(event){
     console.log(conteudo_pricipal)
     if(button.id == "1"){
         ilustracao.style.display = "block"
+        ilustracao.classList.add("absoluto")
         conteudo_pricipal.style.backgroundImage = ""
         Main_h1.classList.remove("menor")
         Main_article.classList.remove("absoluto")
