@@ -1,7 +1,7 @@
 
 let conteudo_pricipal = document.querySelector('.main-conteudo')
 let ilustracao = document.querySelector('.ilustracao')
-let img = document.querySelector('ilustracao img')
+let img = document.querySelector('.ilustracao img')
 let Main_h1 = document.querySelector('.conteudo-principal article h1')
 let Main_article = document.querySelector('.conteudo-principal article')
 let Main_para = document.querySelector('.conteudo-principal article .para')
@@ -76,6 +76,7 @@ function marcador(event){
         ilustracao.style.display = "block"
         ilustracao.classList.remove("absoluto")
         conteudo_pricipal.style.backgroundImage = ""
+        img.src = "img/549X717---Home.png"
         Main_h1.classList.add("menor")
         Main_article.classList.add("absoluto")
         Main_h1.innerHTML = "Auxílio <br> Emergencial"
