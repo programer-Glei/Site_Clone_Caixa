@@ -284,6 +284,14 @@ main .menus-conteudo ul li a:hover{
     right: 40rem;
 }
 
+.conteudo-principal article.absoluto .para{
+    margin-left: 2rem;
+}
+
+.conteudo-principal article.absoluto .button{
+    margin-left: 2rem;
+}
+
 .conteudo-principal article .para{
     width: 40rem;
     height: 12rem;
